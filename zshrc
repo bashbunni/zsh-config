@@ -99,3 +99,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+echo "$(cat /home/bashbunni/banner)" | lolcat
+# figlet -f standard "bashbunni" | lolcat
